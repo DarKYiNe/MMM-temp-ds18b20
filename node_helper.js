@@ -37,9 +37,8 @@ var util = require('util');
 			}
 			else{
 				// If loaded : check sensor values
-				 setInterval(function() {
-					self.sendTemperature();
-                }, self.config.refreshInterval * 1000);
+				self.sendTemperature();
+				setInterval(function() {self.sendTemperature();}, self.config.refreshInterval * 1000);
 			}	
 			this.initialized = true;
 		}
