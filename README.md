@@ -89,7 +89,7 @@ The following properties can be configured:
 
 | Option                       | Description
 | ---------------------------- | -----------
-| `refreshInterval`            | The refresh interval of sensors values (in seconds).<br><br>**Default value:** `10`
+| `refreshInterval`            | The refresh interval of sensors values (in seconds).<br><br>**Default value:** `120`
 | `displayMode`                | Display in horizontal/vertical mode.<br><br>**Required**<br>**Possible values:** `x-stack` or `y-stack`<br>**Default value:** `y-stack`
 | `displayTempIcon`            | Display the "termomether" icon.<br><br>**Possible values:** `true` or `false`<br>**Default value:** `true`	 
 | `iconSize`                   | Size of thermometer icon.  <br><br>**Possible values:** `xsmall`, `small`, `medium`, `large`, `xlarge`<br>**Default value:** `small`
