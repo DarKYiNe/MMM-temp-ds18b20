@@ -13,7 +13,7 @@
 		labelSize: 'medium',
 		tempSize: 'medium',
 		units: config.units,
-		refreshInterval: 10, // in seconds
+		refreshInterval: 120, // in seconds
 	},
 	
 	getStyles: function() {
